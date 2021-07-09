@@ -12,6 +12,14 @@ body {
     border: red 1px solid;
 }
 
+header{
+    background-color: #3980c6;
+}
+
+main{
+    background-color: #51a7ae;
+}
+
 footer {
     background-color: lightgray;
     display: flex;
@@ -69,6 +77,15 @@ header nav {
     flex-wrap: wrap;
 }
 
+.container_picture{
+    padding: 1em;
+}
+
+main section picture a{
+    text-decoration: none;
+    color:black
+}
+
 .container_image {
     height: 200px;
     width: 20vw;
@@ -76,12 +93,13 @@ header nav {
     background: lightgray;
 }
 
-#contact_button{
+.button{
     color:white;
     background-color: black;
     display: block;
-    height: 3em;
-    width: 10em;
+    height: auto;
+    width: auto;
+    max-width: 10em;
     text-align: center;
     text-decoration: none;
     padding:1em 1.5em;
