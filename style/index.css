@@ -1,1 +1,88 @@
 /* Add CSS styling here */
+
+.text_center{
+    text-align: center;
+}
+
+html {
+    border:red 1px dotted;
+}
+
+body {
+    border: red 1px solid;
+}
+
+footer {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+}
+
+header img {
+    height:5em;
+    width:5em;
+}
+
+header nav {
+
+}
+
+#author_section{
+    border:5px double green;
+    padding:0;
+}
+
+#author_image{
+    border:5px double green;
+    display: inline-block;
+    width:45vw;
+    height:15vw;
+    margin:0;
+}
+
+#author_biography{
+    display: inline-block;
+    border:5px double green;
+    width:45vw;
+    height:15vw;
+    margin:0;
+}
+
+.container_gallery{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    
+    /* Content has even space around each item on the main axis */
+    justify-content: space-evenly;
+
+    /* Wraps content from top to bottom */
+    flex-wrap: wrap;
+}
+
+.container_image {
+    height: 200px;
+    width: 20vw;
+    border: 1px solid black;
+    background: lightgray;
+}
+
+#contact_button{
+    color:white;
+    background-color: black;
+    display: block;
+    height: 3em;
+    width: 10em;
+    text-align: center;
+    text-decoration: none;
+    padding:1em 1.5em;
+}

@@ -2,6 +2,7 @@
 <html lang="en">
 
     <head>
+        <link rel="stylesheet" href="style/index.css">
         <meta http-equiv="refresh" content="5">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,7 @@
 
         <header>
             <!-- get a square inmage for logo -->
-            <img src="https://picsum.photos/50">
+            <img class="logo" src="https://picsum.photos/50">
 
             <nav>
                 <a href="about.html">About</a>
@@ -23,8 +24,50 @@
         </header>
 
         <main>
+            
+            <section id="author_section">
+                <picture id="author_image">
+                    <img src="https://picsum.photos/100" alt="image of ted kim">
+                </picture>
+                <section id="author_biography">
+                    <p><span class="author_name">Ted Kim</span></p>
+                    <p>(my education summary)<br>(passion)<br>life goals<br>career aspiration and achievement</p>
+                </section>
+            </section>
 
-            <section>
+            <section class="container_gallery">
+
+                <picture class="container_picture text_center">
+                    <a href="#" target="#"><img class="container_image" src="https://i.ytimg.com/vi/SzJ46YA_RaA/maxresdefault.jpg" alt="computer science"><br>computer science</a>
+                </picture>
+
+                <picture class="container_picture text_center">
+                    <a href="#" target="#"><img class="container_image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5JTQ797Or6f5nxJI2-CZcosYAfvn9_LEweHu7n5EsyD4yRpav4rvRrHHWRZycpO-wUg&usqp=CAU" alt="machine learning"><br>machine learning</a>
+                </picture>
+
+                <picture class="container_picture text_center">
+                    <a href="#" target="#"><img class="container_image" src="https://editor.analyticsvidhya.com/uploads/70332https___specials-images.forbesimg.com_dam_imageserve_966248982_960x0.jpg" alt="AI robot"><br>AI robot</a>
+                </picture>
+
+                <picture class="container_picture text_center">
+                    <a href="#" target="#"><img class="container_image" src="https://assets.kpmg/is/image/kpmg/blue-colored-data-science-illustration?scl=1" alt="data science"><br>data science></a>
+                </picture>
+
+                <picture class="container_picture text_center">
+                    <a href="#" target="#"><img class="container_image" src="https://cdn.wallstreetmojo.com/wp-content/uploads/2019/11/Components-of-Algorithmic-Trading.jpg.webp" alt="algo trading"><br>algo trading</a>
+                </picture>
+
+                <picture class="container_picture text_center">
+                    <a href="#" target="#"><img class="container_image" src="https://www.moveoapps.com/blog/wp-content/uploads/2020/07/types-of-web-applications-1024x790.png" alt="web application development"><br>web application development</a>
+                </picture>
+
+                <picture class="container_picture text_center">
+                    <a href="#" target="#"><img class="container_image" src="https://cwatch.comodo.com/blog/wp-content/uploads/2020/05/good-website-security-plan.jpg" alt="web security"><br>web security></a>
+                </picture>
+
+                <picture class="container_picture text_center">
+                    <a href="#" target="#"><img class="container_image" src="https://www.marcumllp.com/wp-content/uploads/insights-disaster-recovery-plan-960x600.jpg" alt="disaster recovery"><br>disaster recovery</a>
+                </picture>
 
                 
 
@@ -33,19 +76,20 @@
         </main>
         
 
-        <footer>
+        <footer class="text_center">
 
-
+            <section>
+                <p>Like what you see?</p>
+                <a href="#" id="contact_button">Contact US Today</a>
+            </section>
 
             <address>
-                Ted Kim <br>
-                512 Corporate Ave <br>
-                Los Angeles, CA 92055 <br>
-                <a href="tel:+18001234567">1-800-123-4567</a> <br>
-                <a href="mailto:request@gmail.com">request@gmail.com</a><br>
+                <p>Ted Kim | 512 Corporate Ave Los Angeles, CA 92055 |
+                <a href="tel:+18001234567">1-800-123-4567</a> | 
+                <a href="mailto:request@gmail.com">request@gmail.com</a><br></p>
             </address>
 
-            <small>CopyRight protected under public law</small>
+            <small>CopyRight protected under public law 2021</small>
 
         </footer>
 
